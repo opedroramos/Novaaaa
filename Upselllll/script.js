@@ -7,5 +7,5 @@ setTimeout(
 
 
 
-    },)
+    }, 90000)
     /*tempo em milisegundos*/
