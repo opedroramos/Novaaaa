@@ -21,6 +21,77 @@ body{
     margin: 0px auto;
     max-width: 70%;
 }
+#beneficios{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #000000;
+}
+.conteudo1{
+    background-color: #000000;
+    max-width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px #10CB1C;
+}
+.imgb{
+    max-width: 100%;
+    margin: 20px;
+}
+.benefi{
+    color: #10CB1C;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.benef{
+    color: #ffffff;
+    font-size: 16px;
+}
+#botaopai{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+}
+#botao{
+    background: linear-gradient(to top,#009900, #00DD00) ;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: "M";
+    border-radius: 16px;
+    font-weight: bold;
+    margin: 30px auto;
+    cursor: pointer;
+}
+#preço{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#preçoalto{
+    font-size: 30px;
+    color: #FF0000;
+
+}
+#apenas{
+    font-size: 30px;
+    color: #ffffff;
+}
+#preçodes{
+    font-size: 50px;
+    color: #00DD00;
+}
 #rodape1{
     display: flex;
     justify-content: center;
@@ -105,6 +176,58 @@ p{
         display: block;
         margin: 0px auto;
         max-width: 80%;
+    }
+    #beneficios{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        background-color: #000000;
+    }
+    .conteudo1{
+        background-color: #000000;
+        max-width: 240px;
+        padding: 20px;
+        border-radius: 13.3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 1px #10CB1C;
+    }
+    .imgb{
+        max-width: 100%;
+        margin: 20px;
+    }
+    .benefi{
+        color: #10CB1C;
+        font-size: 18px;
+        margin-bottom: 6.6px;
+    }
+    .benef{
+        color: #ffffff;
+        font-size: 16px;
+    }
+    #botaopai{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        text-align: center;
+    }
+    #botao{
+        background: linear-gradient(to top,#009900, #00DD00) ;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 13.3px;
+        font-size: 18px;
+        font-family: "M";
+        border-radius: 10.6px;
+        font-weight: bold;
+        margin: 20px auto;
+        width: 80%;
     }
     #rodape1{
         display: flex;
