@@ -107,6 +107,19 @@
      }
          setTimeout(show_notification, 4 * 1000);
 </script>
+<script>
+    function backquente(){
+        var back_redirect_back_link = 'https://pay.kiwify.com.br/Sq0bjRh';
+        history['pushState']({}, '', location['href']);
+        history['pushState']({}, '', location['href']);
+        window['onpopstate'] = function() {
+        setTimeout(function() {
+            location['href'] = back_redirect_back_link
+        }, 1)
+        }
+    }
+    setTimeout("backquente()", 0); //10 minutos em ms
+    </script>
 </head>
 <body>
     <div id="container">
