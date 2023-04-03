@@ -55,6 +55,23 @@ body{
     color: #ffffff;
     font-size: 16px;
 }
+#imgwhats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 40px auto;
+}
+#h3w{
+    color: #ffffff;
+    font-family: 'M';
+    font-size: 24px;
+}
+.imgw{
+    max-width: 50%;
+    border-radius: 16px;
+}
 #botaopai{
     display: flex;
     justify-content: center;
@@ -211,6 +228,23 @@ p{
     .benef{
         color: #ffffff;
         font-size: 16px;
+    }
+    #imgwhats{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 40px auto;
+    }
+    #h3w{
+        color: #ffffff;
+        font-family: 'M';
+        font-size: 24px;
+    }
+    .imgw{
+        max-width: 80%;
+        border-radius: 16px;
     }
     #botaopai{
         display: flex;
