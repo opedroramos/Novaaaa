@@ -68,6 +68,10 @@ body{
     font-family: 'M';
     font-size: 24px;
 }
+mark{
+    color: #10CB1C;
+    background-color: #000000;
+}
 .imgw{
     max-width: 50%;
     border-radius: 16px;
