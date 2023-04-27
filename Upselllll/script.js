@@ -1,7 +1,7 @@
 
 setTimeout(
     function tempo() {
-        var elemento1 = document.querySelector('#botãokiwi')
+        var elemento1 = document.querySelector('#botaopai')
 
         elemento1.style.display = "flex";
 
